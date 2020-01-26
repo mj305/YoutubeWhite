@@ -1,21 +1,262 @@
+/*Horizontal Nav-Bar*/
+
+::placeholder{
+  color: darkgray;
+  font-size: 1rem;
+}
+
+input{
+  border: none;
+}
+
+.fa-search{
+  padding: 1rem ;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 15px;
+  margin-right: 10rem;
+}
+
+i{
+  padding: .2rem;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:link{
+  color: black;
+}
+
+a:visited{
+  color: blue;
+}
+
+a:hover{
+  color: red;
+}
+
+.horizontal-nav-bar{
+  padding: 10px;
+  margin: 15px;
+  color: darkgray;
+}
+
+.logo{
+  width: 5rem;
+   
+  text-align: center;
+  margin-bottom: -40px;
+  padding: 20px;
+}
+
+.logo-container{
+  width: auto;
+  height: auto;
+  padding-bottom: 20px;
+  margin: -20px;
+}
+
+.right-nav{
+  width: auto;
+  height: auto;
+  padding-bottom: 20px;
+  margin-right: 5rem;
+}
+
+form{
+  display: inline;
+  margin-left: 20px; 
+}
+
+.my-pic{
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem; 
+  padding: 10px;
+  margin: -15px;
+}
+
+/*Vertical Nav-Bar*/
+
+.vertical-nav{
+  width: 8%;
+  padding: 15px;  
+  margin: 15px;
+  position: absolute;
+  color: darkgray
+  ;
+}
+
+.vertical-nav-item{
+  padding: 20px;
+}
+
+/*VIDEO INFO*/
+
+.video-title{
+  margin-left: -1rem;
+}
+
+.profile-author{
+  margin-left: 430px;
+  margin-top: -350px;
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.via{
+  margin-left: -3.5rem;
+  padding: 2.5rem;
+}
+
+.published{
+  margin-left: .5rem;
+}
+
+.profile-pic{
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem; 
+  padding: 9px;
+  margin: -15px;
+  margin-left: -3rem;
+}
+
+.video-subscriptions{
+  margin-top: 1.3rem;
+  margin-left: -1rem;
+  margin-top: 1.5rem;
+}
+
+.subscribe{
+  background-color: red;
+  color: white;
+  padding: .5rem;
+  border-radius: 5%;
+}
+
+.subscribed{
+  background-color: rgb(233, 231, 231);
+  color: rgb(148, 144, 144);
+  border-radius: 5%;
+  padding: .5rem;
+}
+
+.video-data{
+  margin-left: 80rem;
+  margin-top: -230px;
+  position: relative;
+}
+
+.video-likes{
+  margin-top: 1.5rem;
+}
+
+.like{
+  background-color: rgb(233, 231, 231);
+  padding: 1rem;
+  border-radius: 5%;
+  margin-right: .5rem;
+}
+
+.dislike{
+  background-color: rgb(233, 231, 231);
+  padding: 1rem;
+  border-radius: 5%;
+}
+
+.fa-thumbs-up{
+  padding: .5rem;
+}
+
+.fa-thumbs-down{
+  padding: .5rem;
+}
+
 .green-line{
   height: 5px;
   width: 200px;
   background-color: greenyellow;
 }
 
-img{
+/*Video*/
+
+
+.video{
+  padding: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 15rem;
+  width: 1100px; 
+  height: 550px;
+  margin-left: 280px;
+  margin-bottom: 3rem;
+  background-color: rgb(246, 249, 250);
+  border-left: 1px solid black;
+}
+
+.video-divison{
+  padding: 5rem;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 280px;
+  margin-top: -80rem;
+  border-left: 1px solid black;
+}
+
+.grey-line{
+  height: 1.5px;
+  width: 1200px;
+  background-color: rgb(165, 156, 156);
+  
+}
+
+.about-button{
+  position: absolute;
+  align-items: center;
+  padding: 35rem;
+  width: 5rem;
+  
+}
+
+/*Video Viewer Comments*/
+
+.viewers-block{
+  position: absolute;
+  margin-top: 10rem;
+}
+
+.Pretty{
+  padding: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 15rem;
+  margin-left: 280px;
+  margin-bottom: 3rem;
+  border-left: 1px solid black;
+}
+
+.Pretty-pic{
   border-radius: 50%;
-    width: 2rem;
-    height: 2rem; 
+  width: 2rem;
+  height: 2rem; 
+  padding: 10px;
+  margin: -15px;
+  margin-left: -3rem;
+  
 }
 
-.right-block {
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-
-
+.comment-content{
+  padding: 5rem;
+  margin-left: 340px;
+  margin-top: -400px;
+  margin-right: 1rem;
 }
+
+
+

@@ -1,9 +1,0 @@
-.left-block{
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */ 
-  text-align: left;
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-}

@@ -1,180 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="./index.css">
-    <link rel="stylesheet" type="text/css" href="navigation-bar.css">
-    <link rel="stylesheet" type="text/css" href="content.css">
-    <link rel="stylesheet" type="text/css" href="vertical-menu.css">
-    <link rel="stylesheet" type="text/css" href="viewer-comments.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Youtube White</title>
 </head>
-
 <body>
 
-    <!--Navigation Bar-->
-    <div>
-        <nav>
-            <div class="navigation-bar" id="left-nav-bar">
-                <div class="navigation-bar">
-                    <img id="logo" src="youtubelogo.jpg" alt="YouTube Logo">
-                </div>
-                <div class="navigation-bar" id="search-bar">
-                    <i class="fas fa-search"></i><input type="text" placeholder="Search">
-                </div>
-            </div>
+<!-- Horizontal Nav-Bar -->
+    <nav class="nav">
+        <span class="logo-container">
+            <span class="horizontal-nav-bar">  
+                 <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/753px-Logo_of_YouTube_%282015-2017%29.svg.png" alt="YouTube Logo">
+            </span>
+    
+            <span class="horizontal-nav-bar">
+                 <i class="fas fa-grip-lines-vertical"></i>
+            </span>
 
-            <div class="navigation-bar" id="right-nav-bar">
-                <div class="navigation-bar"><img id="my-pic"
-                        src="https://lh3.googleusercontent.com/a-/AAuE7mBg9LiTLsfz8AUD3BUuySQPLkqKNrOua7ql8kF-_w=s96-cc-rg"
-                        alt="Maria Beckles Picture">
-                    <i class="fas fa-caret-down"></i>
-                </div>
-                <div class="navigation-bar"><i class="fas fa-plus"></i>Upload</div>
-            </div>
-        </nav>
-    </div>
+            <span class="horizontal-nav-bar">
+                <form>
+                    <i class="fas fa-search"></i> 
+                    <input type="text" placeholder="Search" name="search">
+                </form>
+            </span>
+        </span>
 
-    <!--Vertical Menu-->
+        <span class="right-nav">
+            <span class="horizontal-nav-bar">            
+                <img class="my-pic" src="profilepic.jpeg" alt="Maria Picture">
+            </span>
+        
+            <span class="horizontal-nav-bar">
+                <i class="fas fa-grip-lines-vertical"></i>
+            </span>
 
-    <div class="content">
+            <span class="horizontal-nav-bar">
+                <i class="fas fa-plus">Upload</i>
+            </span>
+        </span>
+    </nav>
 
-        <div id="left-block">
-            <div>GUIDE</div>
-            <div><i class="far fa-user-circle"></i><img src="" alt="">Apostol</div>
-            <div><i class="fas fa-globe-americas"></i><img src="" alt="">To Watch</div>
-            <div><img src="" alt="">Subscriptions</div>
-            <div><i class="fas fa-clipboard-list"></i><img src="" alt="">History</div>
-            <div><i class="far fa-clock"></i><img src="" alt="">Watch Later</div>
+<!-- Vertical Nav-Bar -->
+    <nav class="vertical-nav">
+
+        <div class="vertical-nav-item">
+            <a href="https://www.youtube.com/" target="blank">GUIDE</a>
         </div>
 
-        <!--Video-->
-        <div class="right-block">
+        <div class="vertical-nav-item">
+            <a href="https://www.youtube.com/feed/library" target="blank"><i class="far fa-user-circle"></i>Apostol</a>
+        </div>
 
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/5zr_o-_PsgQ" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+        <div class="vertical-nav-item">
+            <a href="https://www.youtube.com/feed/trending" target="blank"><i class="far fa-user-circle"></i>To Watch</a>
+        </div>
+
+        <div class="vertical-nav-item">
+            <a href="https://www.youtube.com/feed/subscriptions" target="blank"><i class="far fa-heart"></i>Subscriptions</a>
+        </div>
+
+        <div class="vertical-nav-item">
+            <a href="https://www.youtube.com/feed/history" target="blank"><i class="far fa-clipboard"></i>History</a>
+        </div>
+
+        <div class="vertical-nav-item">
+            <a href="https://www.youtube.com/playlist?list=WL" target="blank"><i class="far fa-clock"></i>Watch Later</a>
+        </div>
+
+    </nav>
+
+    <main class="main"  >
+<!--VIDEO -->        
+        <iframe class="video"
+            src="https://www.youtube.com/embed/5zr_o-_PsgQ" 
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+
+        <div class="video-divison">
+            <div class="grey-line"></div>
+            <div class="about-button"><button>About</button></div>
+        </div>
+
+<!--VIDEO INFO -->
+
+        <div class="profile-author">
+            <h1 class="video-title">Beautiful Landscape Pictures</h1>
+                <span class="via">via</span>
+                <span><img class="profile-pic" src="https://yt3.ggpht.com/a/AGF-l7-nJuvaWFldZX9Y6lrCTkaq3gcbekRqUN4lDQ=s48-c-k-c0xffffffff-no-rj-mo" alt="Profile Pic"></span>
+                <span class="published">Published on May 26,2019</span>
+                <div class="video-subscriptions">
+                    <span class="subscribe">Subscribe</span>
+                    <span class="subscribed">230</span>
+                </div>
+        </div>
+
+        <div class="video-data">
+            <h1 class="video-views">324,732</h1>
+            <div class="green-line"></div>
+            <div class="video-likes">
+                <span class="like">Like<i class="far fa-thumbs-up"></i></span>
+                <span class="dislike">Dislike<i class="far fa-thumbs-down"></i></span>
+            </div> 
+        </div>
+
+
+
+<!--VIDEO VIEWERS COMMENTS-->
+
+        <span class="viewers-block">
+        <div class="Pretty-box">
+            <div class="Pretty">
+                <img class="Pretty-pic"
+                src="https://yt3.ggpht.com/a/AGF-l78rbjq7aoOzc1xOFH6CfdRGalBmMOJR1U5YzQ=s288-c-k-c0xffffffff-no-rj-mo" 
+                alt="user picture">
             </div>
-
-            <!--Under Video-->
-            <div class="under-video">
+            <div class="comment-content">
                 <div>
-                    <div class="video-title">
-                        <div>Beautiful Landscape Pictures</div>
-                        <div>324,732</div>
-                    </div>
-
-                    <!--Video Info-->
-
-                    <div>
-                        <div class="author-info">
-                            <div>via</div>
-                            <div><img
-                                    src="https://yt3.ggpht.com/a/AGF-l79yIGbH9hP_QsURNPs_stOYZCXAQYPrCWOnFQ=s288-c-k-c0xffffffff-no-rj-mo"
-                                    alt="Jessica B. Picture"></div>
-                            <div>Jessica B.</div>
-                            <div>Published on May 26, 2020</div>
-                        </div>
-                        <div>
-                            <div class="green-line"></div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div>
-                            <div class="subscribe">
-                                <div>Subscribe</div>
-                                <div>230</div>
-                            </div>
-                        </div>
-
-                        <div class="video-thumbs">
-                            <div><i class="far fa-thumbs-up"></i>Like</div>
-
-                            <div><i class="far fa-thumbs-down"></i>Dislike</div>
-                        </div>
-                    </div>
+                    <span>Pretty Noona</span>
+                    <span>1 day ago</span>
                 </div>
-
-                <div class="video-divison">
-                    <div class="grey-line"></div>
-                    <div class="about-button"><button>About</button></div>
-                </div>
-
-                <!--VIDEO VIEWERS COMMENTS-->
+                <p>So Beautiful!</p>
                 <div>
-
-
-                    <div class="comment-block">
-                        <div class="Pretty">
-                            <div><img
-                                    src="https://yt3.ggpht.com/a/AGF-l78rbjq7aoOzc1xOFH6CfdRGalBmMOJR1U5YzQ=s288-c-k-c0xffffffff-no-rj-mo"
-                                    alt="user picture"></div>
-                        </div>
-
-                        <div>
-                            <div class="comment-date">
-                                <div>Pretty Noona</div>
-                                <div>1 day ago</div>
-                            </div>
-                            <div>So Beautiful!</div>
-                            <div class="viewer-thumbs">
-                                <div><i class="far fa-thumbs-up"></i>24</div>
-                                <div><i class="far fa-thumbs-down"></i>2</div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="comment-block">
-                        <div class="Philipp">
-                            <div><img
-                                    src="https://yt3.ggpht.com/a/AGF-l78ceAgzC4HcCAsjyVikD-yfhGmjejh8GFTMow=s288-c-k-c0xffffffff-no-rj-mo"
-                                    alt="user picture"></div>
-                        </div>
-
-                        <div>
-                            <div class="comment-date">
-                                <div>Philipp Cross</div>
-                                <div>3 weeks ago</div>
-                            </div>
-                            <div>Would really love it for you guys listened to my recent piano song:) i promise you will
-                                find it just as good if not better than this.</div>
-                        </div>
-                    </div>
-
-                    <div class="comment-block">
-                        <div class="Myriam">
-                            <div><img
-                                    src="https://yt3.ggpht.com/a/AGF-l79KjQvDcjxASoTGPGscubQZJIcl0-QxxhJTAQ=s288-c-k-c0xffffffff-no-rj-mo"
-                                    alt="user picture"></div>
-                        </div>
-
-                        <div>
-                            <div class="comment-date">
-                                <div>Myriam Duran</div>
-                                <div>1 day ago</div>
-                            </div>
-                            <div>Wonderful long version video, I subscribed :) I am pianist Myriam from Germany!</div>
-                            <div class="viewer-thumbs">
-                                <div><i class="far fa-thumbs-up"></i>24</div>
-                                <div><i class="far fa-thumbs-down"></i>2</div>
-                            </div>
-                        </div>
-                    </div>
-
+                    <span><i class="far fa-thumbs-up"></i>24</span>
+                    <span><i class="far fa-thumbs-down"></i>2</span>
                 </div>
             </div>
         </div>
-    </div>
 
+            <div class="Pretty">
+                <img class="Pretty-pic"
+                src="https://yt3.ggpht.com/a/AGF-l7-BkMLEgcKpXVqSmT-7gMKwizdlPCuil-jCng=s288-c-k-c0xffffffff-no-rj-mo" 
+                alt="user picture">
+            </div>
+            <div class="comment-content">
+                <div>
+                    <span>Phillip Cross</span>
+                    <span>3 weeks ago</span>
+                </div>
+                <p>Would really love it if you guys listened to my recent piano song :) 
+                   I promise you will find it just as good if not better than this.
+                </p>
+                <div>
+                    <span><i class="far fa-thumbs-up"></i>2</span>
+                    <span><i class="far fa-thumbs-down"></i>50</span>
+                </div>
+            </div>
+
+            <div class="Pretty">
+                <img class="Pretty-pic"
+                src="https://yt3.ggpht.com/a/AGF-l79yIGbH9hP_QsURNPs_stOYZCXAQYPrCWOnFQ=s288-c-k-c0xffffffff-no-rj-mo" 
+                alt="user picture">
+            </div>
+            <div class="comment-content">
+                <div>
+                    <span>Myriam Duran</span>
+                    <span>10 days ago</span>
+                </div>
+                <p>Wonderful long version video, I subscribed :)
+                   I am a pianist Myriam from Germany!
+                </p>
+                <div>
+                    <span><i class="far fa-thumbs-up"></i>24</span>
+                    <span><i class="far fa-thumbs-down"></i>2</span>
+                </div>
+            </div>
+        </span>
+
+
+
+
+    </main>
+
+    
+
+
+    
 </body>
-
 </html>
