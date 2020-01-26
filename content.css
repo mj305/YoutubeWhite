@@ -1,0 +1,68 @@
+.content{
+
+display: inline-flex;
+/* text-align: center; */
+
+}
+
+.video-title{
+  
+  margin: 1rem;
+  display: flex;
+    justify-content: space-between;
+}
+
+.author-info{
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 1rem;
+  
+}
+
+.green-line{
+  display: inline-flex;
+  
+}
+
+.subscribe{
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.video-thumbs{
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.video-divison{
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 1rem;
+  align-items: center;
+}
+
+.grey-line{
+  height: 1.5px;
+  width: 500px;
+  background-color: lightgrey;
+  
+}
+
+.about-button{
+  position: absolute;
+  align-items: center;
+  padding: 15rem;
+}
+
+.video-title{
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+
+
+
+

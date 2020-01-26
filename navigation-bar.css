@@ -1,0 +1,23 @@
+
+.navigation-bar{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem;
+  
+}
+
+#logo{
+  width: 4rem;
+  height: 4rem; 
+  }
+
+
+
+
+
+ 
+
+
+

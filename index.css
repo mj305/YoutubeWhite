@@ -1,0 +1,21 @@
+.green-line{
+  height: 5px;
+  width: 200px;
+  background-color: greenyellow;
+}
+
+img{
+  border-radius: 50%;
+    width: 2rem;
+    height: 2rem; 
+}
+
+.right-block {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+
+
+}
