@@ -232,6 +232,12 @@ form{
   margin-top: 10rem;
 }
 
+.video-views{
+  display: flex;
+  justify-content: right;
+  padding-left: 6.5rem;
+}
+
 .Pretty{
   padding: 8rem;
   padding-top: 1rem;
